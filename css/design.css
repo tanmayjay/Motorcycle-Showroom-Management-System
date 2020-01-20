@@ -1,0 +1,61 @@
+table {
+    border-collapse: collapse;
+    overflow-x:auto;
+    text-align:left;
+  margin-left: auto;
+  margin-right: auto;
+  float: top;
+}
+  
+  th, td {
+    text-align: center;
+    padding: 8px;
+  }
+  
+  tr:nth-child(odd) {
+    background-color: #f8cbf1;
+    border-bottom: 1px solid #ddd;
+  }
+
+  tr:nth-child(even) {
+    background-color: #fff4fe;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  th {
+    background-color: #cc1772;
+    border-bottom: 1px solid #ddd;
+    border-top: 1px solid #ddd;
+  }
+
+  tr:hover {
+      background-color: #9fa09f;
+    }
+
+.center {
+        margin: auto;
+        width: 100%;
+        border: 3px solid rgb(204, 225, 243);
+        padding: 300px;
+        background-image:url(../images/stallion.jpg);
+        text-align:center;
+      }
+
+caption {
+        color: yellow;
+        text-shadow: 2px 2px 8px #FF0000;
+      }
+
+      .title-container {
+          background-color: rgb(226, 210, 210) !important;
+          margin-left: auto;
+        margin-right: auto;
+        float: top;
+         width: 54%;
+         text-align: center;
+         
+        }
+
+        body {
+          padding-top:150px;
+        }

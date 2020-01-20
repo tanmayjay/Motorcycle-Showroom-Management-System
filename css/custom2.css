@@ -1,0 +1,45 @@
+body {
+    padding-top:120px;
+    background-size: cover;
+    background:url(../images/stallion-c.jpg) no-repeat !important;
+  }
+  
+.navbar {
+  background: rgba(16, 19, 24, 0.747) !important;
+}
+  
+#first-jumbo {
+    text-align:center;
+    -webkit-text-fill-color: rgb(0, 0, 0);
+    font-family: Ubuntu-Regular, sans-serif;
+  }
+
+  .jumbotron{
+    -webkit-background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    -o-background-size: 100% 100%;
+    background-size: 100% 100%;
+    background-color: rgba(213, 228, 255, 0.39);
+    
+}
+
+#wrap {
+  min-height: 100%;
+}
+
+#main {
+  overflow:auto;
+  padding-bottom:150px; /* this needs to be bigger than footer height*/
+}
+
+.footer {
+  position: relative;
+  margin-top: -120px; /* negative value of footer height */
+  height: 160px;
+  clear:both;
+  padding-top:20px;
+  text-align: center;
+  -webkit-text-fill-color: rgb(255, 255, 255);
+  background-color: rgba(16, 19, 24, 0.747);
+  font-family: Ubuntu-Regular,sans-serif;
+} 
